@@ -1,0 +1,7 @@
+﻿POST {{url}}/api/name
+Content-Type: application/json
+
+{"name": "saibr", "age": 32}
+
+###
+GET {{url}}/api/saibr?age=32
